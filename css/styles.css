@@ -82,7 +82,14 @@ address{
 .section {
     padding: 94px 0;
 }
-
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1667;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
 /* Section 1 */
 
 .header{
@@ -246,7 +253,8 @@ align-items: center;
 .lorem {
     padding-bottom: 0;
 }
-.lorem-div-icon {
+
+.lorem__icon {
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
@@ -257,13 +265,13 @@ align-items: center;
     justify-content: center;
 }
 
-.lorem-icons {
+.lorem__icon-size {
     width: 70px;
     height: 70px;
 }
 
 
-.lorem-h3 {
+.lorem__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1429;
@@ -271,10 +279,111 @@ align-items: center;
     margin-bottom: 10px;
 }
 
-.lorem-p {
+.lorem__text {
     line-height: 1.714;
     color: var(--brand-color-grey);
 }
+
+
+/* Czym się zajmujemy */
+.offer {
+    text-align: center;
+}
+
+.offer__item {
+    display: inline-block;
+    /* margin-right: 20px; */
+    position: relative;
+}
+
+.offer__item>img {
+    display: block;
+}
+
+/* .offer-item:last-child {
+    margin-right: 0;
+} */
+.offer__description {
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--brand-color-white);
+    /* font-size: 14px; */
+    font-weight: 700;
+    height: 70px;
+    /* padding: 27px 0; */
+    width: 370px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* team */
+
+.team {
+    background-color: var(--brand-background-team);
+}
+.team__card {
+    background-color: var(--brand-color-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+.team__card-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.team__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.team__job {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+}
+
+.team__social-links {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team__social-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand-icons-grey);
+    border-radius: 50%;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team__social-link:hover {
+    background-color: var(--brand-color-blue);
+    color: var(--brand-color-white);
+}
+
+.team__social-link:focus {
+    background-color: var(--brand-color-blue);
+    color: var(--brand-color-white)
+}
+
+.team-icon {
+    fill: currentColor;
+}
+
+/* Clients */
+
+
 /* KONIEC PRACY!!!! */
 
 
@@ -288,14 +397,16 @@ align-items: center;
 
 
 
-.header-two {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1667;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 50px;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -353,104 +464,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-/* Czym się zajmujemy */
-.offer {
-    text-align: center;
-}
-
-.offer-item {
-    display: inline-block;
-    /* margin-right: 20px; */
-    position: relative;
-}
-
-.offer-item>img {
-    display: block;
-}
-
-/* .offer-item:last-child {
-    margin-right: 0;
-} */
-
-.offer-description {
-    background-color: rgba(47, 48, 58, 0.8);
-    color: var(--brand-color-white);
-    /* font-size: 14px; */
-    font-weight: 700;
-    height: 70px;
-    /* padding: 27px 0; */
-    width: 370px;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* <czym sie zajmujemy end */
-.team{
-    background-color: var(--brand-background-team);
-}
-
-.team-card{
-    
-    background-color: var(--brand-color-white);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-        text-align: center;
-        
-}
-.team-padding{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.team-name {
-    font-weight: 500;
-    font-size: 16px;
-        line-height: 1.1875;
-        letter-spacing: 0.03em;
-    margin-bottom: 10px;
-}
 
 
-.team-job {
-    color: #757575;
-    font-size: 16px;
-        line-height: 1.1875;
-        letter-spacing: 0.03em;
-}
-
-.team-social-links{
-margin-top: 16px;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 10px;
-}
-.team-icon{
-    fill: currentColor;
-
-}
-.team-socials{
-    width: 44px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--brand-icons-grey);
-    border-radius: 50%;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
-.team-socials:hover {
-    background-color: var(--brand-color-blue);
-    color: var(--brand-color-white);
-    
-}
-.team-socials:focus {
-    background-color: var(--brand-color-blue);
-    color: var(--brand-color-white)
-}
 
 .clients-section {
     display: flex;

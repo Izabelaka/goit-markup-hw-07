@@ -351,45 +351,45 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             
-            <p class="modal-p">Zostaw swoje dane w formularzu poniżej</p>
+            <p class="modal__title">Zostaw swoje dane w formularzu poniżej</p>
 
             <form name="user-contact">
-                <div class="field">
-                    <label class="label-modal">
+                <div class="modal__form">
+                    <label class="modal__form-label">
                         Imie
-                        <div class="input-wrapper">
-                            <input type="text" name="contact-name" class="modal-input"/>
-                            <svg width="18" height="18" class="modal-icon">
+                        <div class="modal__form-input-wrapper">
+                            <input type="text" name="contact-name" class="modal__form-input"/>
+                            <svg width="18" height="18" class="modal__form-icon">
                                 <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
                             </svg>
                         </div>
                     </label>
                 </div>
-                <div class="field">
-                    <label class="label-modal">
+                <div class="modal__form">
+                    <label class="modal__form-label">
                         Telefon
-                        <div class="input-wrapper">
-                            <input type="text" name="contact-phone" class="modal-input" />
-                            <svg width="18" height="18" class="modal-icon">
+                        <div class="modal__form-input-wrapper">
+                            <input type="text" name="contact-phone" class="modal__form-input" />
+                            <svg width="18" height="18" class="modal__form-icon">
                                 <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
                             </svg>
                         </div>
                     </label>
                 </div>
-                <div class="field">
-                    <label class="label-modal">
+                <div class="modal__form">
+                    <label class="modal__form-label">
                         Email
-                        <div class="input-wrapper">
-                            <input type="text" name="contact-email" class="modal-input" />
-                            <svg width="18" height="18" class="modal-icon">
+                        <div class="modal__form-input-wrapper">
+                            <input type="text" name="contact-email" class="modal__form-input" />
+                            <svg width="18" height="18" class="modal__form-icon">
                                 <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                             </svg>
                         </div>
                     </label>
                 </div>
-                <div class="fild fild-textarea">
-                    <label class="label-modal">Komentarz
-                        <textarea name="contact-comment" placeholder="Wprowadź tekst" class="user-comment"></textarea>
+                <div class="modal__form modal__form-textarea">
+                    <label class="modal__form-label">Komentarz
+                        <textarea name="contact-comment" placeholder="Wprowadź tekst" class="modal__form-textarea-comment"></textarea>
                     </label>
                 </div>
                 <!-- <div class="checkbox-modal">
@@ -398,19 +398,19 @@
                         Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności.</a>
                     </label>
                 </div> -->
-                <div class="checkbox-modal" >
+                <div class="modal__checkbox" >
                     <label class="check option">
                         <input class="check__input" type="checkbox">
                         <span class="check__box"></span>
                         Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności.</a>
                     </label>
                 </div>
-                <div class="button-modal">
-                    <button type="submit" class="modal-btn">Wyślij</button>
+                <div class="modal__button-field">
+                    <button type="submit" class="modal__button">Wyślij</button>
                 </div>
             
             </form>
-            <button class="close-btn" data-modal-close>&times;</button>
+            <button class="modal__close-btn" data-modal-close>&times;</button>
         </div>
     <script src="./js/modal.js"></script>
 </body>

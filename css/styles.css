@@ -61,17 +61,7 @@ address{
     border-radius: 4px;
 } */
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
 
-}
-.container__header {
-    display: flex;
-    align-items: center;
-
-}
 .list-style {
     list-style: none;
 }
@@ -96,7 +86,17 @@ address{
     text-align: center;
     margin-bottom: 50px;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
+.container__header {
+    display: flex;
+    align-items: center;
+
+}
 
 /* logo */
 .logo {
@@ -125,15 +125,16 @@ color: var(--brand-color-black);
 border-bottom: 1px solid var(--brand-header-border);
 }
 
-
-.nav__list {
-    margin-left: 93px;
-}
 .nav {
     display: flex;
     align-items: center;
     gap: 50px;
 }
+
+.nav__list {
+    margin-left: 93px;
+}
+
 .nav__link {
     text-decoration: none;
     font-size: 14px;
@@ -183,6 +184,7 @@ border-bottom: 1px solid var(--brand-header-border);
     color: var(--brand-color-blue);
     ;
 }
+
 .contact {
     display: flex;
     align-items: center;
@@ -219,6 +221,7 @@ border-bottom: 1px solid var(--brand-header-border);
 .cotact__link-icon:focus: {
     /* fill:var(--brand-color-blue); */
 }
+/* ?????????????????????????????????????? */
 /* HERO */
 .order {
     text-align: center;

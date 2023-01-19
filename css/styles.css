@@ -174,22 +174,22 @@ border-bottom: 1px solid var(--brand-header-border);
     border-radius: 2px;
 }
 
-.header-nav__link-activ:hover {
+.nav__link-activ:hover {
     color: var(--brand-color-blue);
     ;
 }
 
-.header-nav__link-activ:focus {
+.nav__link-activ:focus {
     color: var(--brand-color-blue);
     ;
 }
-.contact-list {
+.contact {
     display: flex;
     align-items: center;
     gap: 50px;
     margin-left: auto;
 }
-.contact-link {
+.contact__link {
     color: var(--brand-color-grey);
     text-decoration: none;
     font-size: 14px;
@@ -200,23 +200,23 @@ border-bottom: 1px solid var(--brand-header-border);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-link:hover {
+.contact__link:hover {
     color: var(--brand-color-blue);
 }
 
-.contact-link:focus {
+.contact__link:focus {
     color: var(--brand-color-blue);
 }
-.contact-link__icon {
+.contact__link-icon {
     margin-right: 10px;
     fill: currentColor;
 }
 
-.contact-link__icon:hover {
+.contact__link-icon:hover {
     /* fill:var(--brand-color-blue); */
 }
 
-.cotact-link__icon:focus: {
+.cotact__link-icon:focus: {
     /* fill:var(--brand-color-blue); */
 }
 /* HERO */
